@@ -1,0 +1,13 @@
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\bin\Debug\Solução de Questões.exe.config
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\bin\Debug\Solução de Questões.exe
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\bin\Debug\Solução de Questões.pdb
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução de Questões.csprojAssemblyReference.cache
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Properties.Resources.resources
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução de Questões.csproj.GenerateResource.cache
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução de Questões.csproj.CoreCompileInputs.cache
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução de Questões.exe
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução de Questões.pdb
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Login.resources
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Index.resources
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Cadastro.resources
+C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Resolucao.resources
