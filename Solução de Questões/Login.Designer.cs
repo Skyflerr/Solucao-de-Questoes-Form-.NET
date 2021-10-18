@@ -102,30 +102,33 @@
             // 
             // SignUpButton
             // 
+            this.SignUpButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.SignUpButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignUpButton.Location = new System.Drawing.Point(31, 391);
             this.SignUpButton.Name = "SignUpButton";
             this.SignUpButton.Size = new System.Drawing.Size(160, 58);
             this.SignUpButton.TabIndex = 6;
             this.SignUpButton.Text = "Sign Up";
-            this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.UseVisualStyleBackColor = false;
             this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
             // 
             // GoButton
             // 
+            this.GoButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.GoButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GoButton.Location = new System.Drawing.Point(239, 391);
             this.GoButton.Name = "GoButton";
             this.GoButton.Size = new System.Drawing.Size(160, 58);
             this.GoButton.TabIndex = 7;
             this.GoButton.Text = "Go";
-            this.GoButton.UseVisualStyleBackColor = true;
+            this.GoButton.UseVisualStyleBackColor = false;
             this.GoButton.Click += new System.EventHandler(this.GoButton_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(431, 502);
             this.Controls.Add(this.GoButton);
             this.Controls.Add(this.SignUpButton);
@@ -139,7 +142,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
-            this.Opacity = 0.91D;
+            this.Opacity = 0.88D;
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);

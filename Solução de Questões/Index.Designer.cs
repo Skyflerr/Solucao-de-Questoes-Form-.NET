@@ -118,6 +118,7 @@
             this.PalaceButton.TabIndex = 0;
             this.PalaceButton.Text = "Q.I Palace";
             this.PalaceButton.UseVisualStyleBackColor = false;
+            this.PalaceButton.Click += new System.EventHandler(this.PalaceButton_Click);
             // 
             // TimeButton
             // 
@@ -129,6 +130,7 @@
             this.TimeButton.TabIndex = 0;
             this.TimeButton.Text = "Time Trial";
             this.TimeButton.UseVisualStyleBackColor = false;
+            this.TimeButton.Click += new System.EventHandler(this.TimeButton_Click);
             // 
             // Index
             // 
@@ -143,7 +145,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Index";
-            this.Opacity = 0.91D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Index";
             this.SelectionBox.ResumeLayout(false);

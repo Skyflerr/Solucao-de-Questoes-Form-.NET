@@ -4,15 +4,15 @@ Sistema de Cadastro e resolução de Questões feito em form .NET ,com login e c
 ### Tabela de funcionalidades basicas
 |Funções|Progresso|
 |-------|---------|
-|Login|Em andamento (Design)|
-|Cadastro|Não Iniciado|
-|Resolução|Não Iniciado|
+|Login|Completo|
+|Cadastro|Em andamento|
+|Resolução|Em andamento|
 |Questão Aleatoria|Não Iniciado|
 
 ### Tabela de funcionalidades extras
 |Funções|Progresso|
 |-------|---------|
 |Dark Mode|Não iniciado|
-|Q.I Palace|Não iniciado|
-|Niveis de Dificuldade|Não iniciado|
-|Time Trial|Não iniciado|
+|Q.I Palace|Em andamento(Design)|
+|Niveis de Dificuldade|Em andamento|
+|Time Trial|Em andamento (Design)|

@@ -14,6 +14,9 @@ namespace Solução_de_Questões
     {
         Cadastro y = new Cadastro();
         Resolucao x = new Resolucao();
+        Time_Trial a = new Time_Trial();
+        Q z = new Q();
+
         public Index()
         {
             InitializeComponent();
@@ -30,6 +33,18 @@ namespace Solução_de_Questões
         {
             this.Hide();
             x.ShowDialog();
+        }
+
+        private void TimeButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            a.ShowDialog();
+        }
+
+        private void PalaceButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            z.ShowDialog();
         }
     }
 }

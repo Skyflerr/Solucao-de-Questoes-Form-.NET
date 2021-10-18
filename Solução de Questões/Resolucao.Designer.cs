@@ -35,16 +35,16 @@
             this.EnunciadoBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.AlternativaBox = new System.Windows.Forms.GroupBox();
+            this.LabelE = new System.Windows.Forms.Label();
+            this.LabelD = new System.Windows.Forms.Label();
+            this.LabelC = new System.Windows.Forms.Label();
+            this.LabelB = new System.Windows.Forms.Label();
+            this.LabelA = new System.Windows.Forms.Label();
             this.ButtonE = new System.Windows.Forms.RadioButton();
             this.ButtonD = new System.Windows.Forms.RadioButton();
             this.ButtonC = new System.Windows.Forms.RadioButton();
             this.ButtonB = new System.Windows.Forms.RadioButton();
             this.ButtonA = new System.Windows.Forms.RadioButton();
-            this.LabelA = new System.Windows.Forms.Label();
-            this.LabelB = new System.Windows.Forms.Label();
-            this.LabelC = new System.Windows.Forms.Label();
-            this.LabelD = new System.Windows.Forms.Label();
-            this.LabelE = new System.Windows.Forms.Label();
             this.ResolucaoBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.StartButton = new System.Windows.Forms.Button();
@@ -85,7 +85,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 21);
+            this.label1.Location = new System.Drawing.Point(12, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 9;
@@ -128,6 +128,51 @@
             this.AlternativaBox.TabIndex = 15;
             this.AlternativaBox.TabStop = false;
             this.AlternativaBox.Text = "Alternativas";
+            // 
+            // LabelE
+            // 
+            this.LabelE.AutoSize = true;
+            this.LabelE.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelE.Location = new System.Drawing.Point(57, 205);
+            this.LabelE.Name = "LabelE";
+            this.LabelE.Size = new System.Drawing.Size(0, 19);
+            this.LabelE.TabIndex = 6;
+            // 
+            // LabelD
+            // 
+            this.LabelD.AutoSize = true;
+            this.LabelD.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelD.Location = new System.Drawing.Point(57, 161);
+            this.LabelD.Name = "LabelD";
+            this.LabelD.Size = new System.Drawing.Size(0, 19);
+            this.LabelD.TabIndex = 6;
+            // 
+            // LabelC
+            // 
+            this.LabelC.AutoSize = true;
+            this.LabelC.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelC.Location = new System.Drawing.Point(57, 119);
+            this.LabelC.Name = "LabelC";
+            this.LabelC.Size = new System.Drawing.Size(0, 19);
+            this.LabelC.TabIndex = 6;
+            // 
+            // LabelB
+            // 
+            this.LabelB.AutoSize = true;
+            this.LabelB.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelB.Location = new System.Drawing.Point(57, 80);
+            this.LabelB.Name = "LabelB";
+            this.LabelB.Size = new System.Drawing.Size(0, 19);
+            this.LabelB.TabIndex = 6;
+            // 
+            // LabelA
+            // 
+            this.LabelA.AutoSize = true;
+            this.LabelA.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelA.Location = new System.Drawing.Point(57, 39);
+            this.LabelA.Name = "LabelA";
+            this.LabelA.Size = new System.Drawing.Size(0, 19);
+            this.LabelA.TabIndex = 6;
             // 
             // ButtonE
             // 
@@ -188,56 +233,6 @@
             this.ButtonA.TabStop = true;
             this.ButtonA.Text = "A";
             this.ButtonA.UseVisualStyleBackColor = true;
-            // 
-            // LabelA
-            // 
-            this.LabelA.AutoSize = true;
-            this.LabelA.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelA.Location = new System.Drawing.Point(57, 39);
-            this.LabelA.Name = "LabelA";
-            this.LabelA.Size = new System.Drawing.Size(45, 19);
-            this.LabelA.TabIndex = 6;
-            this.LabelA.Text = "label3";
-            // 
-            // LabelB
-            // 
-            this.LabelB.AutoSize = true;
-            this.LabelB.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelB.Location = new System.Drawing.Point(57, 80);
-            this.LabelB.Name = "LabelB";
-            this.LabelB.Size = new System.Drawing.Size(45, 19);
-            this.LabelB.TabIndex = 6;
-            this.LabelB.Text = "label3";
-            // 
-            // LabelC
-            // 
-            this.LabelC.AutoSize = true;
-            this.LabelC.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelC.Location = new System.Drawing.Point(57, 119);
-            this.LabelC.Name = "LabelC";
-            this.LabelC.Size = new System.Drawing.Size(45, 19);
-            this.LabelC.TabIndex = 6;
-            this.LabelC.Text = "label3";
-            // 
-            // LabelD
-            // 
-            this.LabelD.AutoSize = true;
-            this.LabelD.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelD.Location = new System.Drawing.Point(57, 161);
-            this.LabelD.Name = "LabelD";
-            this.LabelD.Size = new System.Drawing.Size(45, 19);
-            this.LabelD.TabIndex = 6;
-            this.LabelD.Text = "label3";
-            // 
-            // LabelE
-            // 
-            this.LabelE.AutoSize = true;
-            this.LabelE.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelE.Location = new System.Drawing.Point(57, 205);
-            this.LabelE.Name = "LabelE";
-            this.LabelE.Size = new System.Drawing.Size(45, 19);
-            this.LabelE.TabIndex = 6;
-            this.LabelE.Text = "label3";
             // 
             // ResolucaoBox
             // 

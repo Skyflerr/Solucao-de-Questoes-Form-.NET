@@ -15,9 +15,6 @@ namespace Solução_de_Questões
     {
         Index y = new Index();
 
-        string BackupStringNames = File.ReadAllText(GetUsersPath()).ToString();
-        string BackupStringPasswords = File.ReadAllText(GetPasswordsPath()).ToString();
-
         public Login()
         {
             InitializeComponent();
@@ -37,7 +34,20 @@ namespace Solução_de_Questões
 
         private void GoButton_Click(object sender, EventArgs e)
         {
-            
+            if (File.ReadAllLines(GetUsersPath()).ToList().IndexOf(UsernameTextbox.Text) == File.ReadAllLines(GetPasswordsPath()).ToList().IndexOf(PasswordTextbox.Text) && File.ReadAllLines(GetUsersPath()).ToList().Contains(UsernameTextbox.Text))
+            {
+                MessageBox.Show("Logado :D");
+                this.Hide();
+                y.ShowDialog();
+            }
+
+            if (File.ReadAllLines(GetUsersPath()).ToList().IndexOf(UsernameTextbox.Text) != File.ReadAllLines(GetPasswordsPath()).ToList().IndexOf(PasswordTextbox.Text) || !File.ReadAllLines(GetUsersPath()).ToList().Contains(UsernameTextbox.Text))
+            {
+                MessageBox.Show("Algo deu errado, Cheque as senhas :/");
+                UsernameTextbox.Text = "";
+                PasswordTextbox.Text = "";
+            }
+                
         }
 
         private void SignUpButton_Click(object sender, EventArgs e)
