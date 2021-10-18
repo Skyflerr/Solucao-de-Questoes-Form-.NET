@@ -88,6 +88,7 @@
             this.PasswordTextbox.Size = new System.Drawing.Size(368, 27);
             this.PasswordTextbox.TabIndex = 4;
             this.PasswordTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PasswordTextbox.TextChanged += new System.EventHandler(this.PasswordTextbox_TextChanged);
             // 
             // SubLabel
             // 
@@ -108,6 +109,7 @@
             this.SignUpButton.TabIndex = 6;
             this.SignUpButton.Text = "Sign Up";
             this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
             // 
             // GoButton
             // 
