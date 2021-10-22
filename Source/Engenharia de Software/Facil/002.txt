@@ -1,0 +1,8 @@
+quais sao os 3 pilares do desenvolvimento de projetos
+tempo escopo e verba
+herança polimorfismo e classe
+html css e javascript
+C C++ e C#
+nenhuma das opções acima
+tempo escopo e tempo
+A
