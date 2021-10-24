@@ -5,14 +5,22 @@ Sistema de Cadastro e resolução de Questões feito em form .NET ,com login e c
 |Funções|Progresso|
 |-------|---------|
 |Login|Completo|
-|Cadastro|Em andamento|
-|Resolução|Em andamento|
-|Questão Aleatoria|Não Iniciado|
+|Cadastro|Completo|
+|Resolução|Completo|
+|Questão Aleatoria|Em andamento (Codigo)|
 
 ### Tabela de funcionalidades extras
 |Funções|Progresso|
 |-------|---------|
 |Dark Mode|Não iniciado|
 |Q.I Palace|Em andamento(Design)|
-|Niveis de Dificuldade|Em andamento|
+|Niveis de Dificuldade|Completo|
 |Time Trial|Em andamento (Design)|
+
+### Descrição de Modos extras 
+
+## Q.i Palace
+_Um modo de questões aleatórias apenas no modo dificeis de todas as materias com um tempo pré determinado para ser completar, com rankings__ 
+
+## Time Trial
+_Modo com um tempo pré determinado para se completar 10 questões em um nivel de dificuldade pré determinado_

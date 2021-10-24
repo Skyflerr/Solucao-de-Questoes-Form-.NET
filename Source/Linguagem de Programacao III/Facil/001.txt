@@ -1,0 +1,8 @@
+Em C#, qual tipo não é usado para declarar números:
+int
+float
+decimal
+bool
+double
+A única opção errada é bool. Essa declaração qualifica como verdadeiro ou falso.
+D

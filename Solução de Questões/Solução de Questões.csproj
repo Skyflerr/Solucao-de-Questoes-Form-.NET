@@ -52,6 +52,7 @@
     <Compile Include="Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Global.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

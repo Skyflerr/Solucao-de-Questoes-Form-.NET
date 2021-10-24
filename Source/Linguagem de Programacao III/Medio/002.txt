@@ -1,0 +1,8 @@
+Quando uma instância é default, ela é:
+Pública
+Privada
+Depende da classe
+Depende do tipo
+Depende do método
+Uma instância default é privada.
+B

@@ -40,18 +40,18 @@
             this.LabelC = new System.Windows.Forms.Label();
             this.LabelB = new System.Windows.Forms.Label();
             this.LabelA = new System.Windows.Forms.Label();
-            this.ButtonE = new System.Windows.Forms.RadioButton();
-            this.ButtonD = new System.Windows.Forms.RadioButton();
-            this.ButtonC = new System.Windows.Forms.RadioButton();
-            this.ButtonB = new System.Windows.Forms.RadioButton();
-            this.ButtonA = new System.Windows.Forms.RadioButton();
+            this.E = new System.Windows.Forms.RadioButton();
+            this.D = new System.Windows.Forms.RadioButton();
+            this.C = new System.Windows.Forms.RadioButton();
+            this.B = new System.Windows.Forms.RadioButton();
+            this.A = new System.Windows.Forms.RadioButton();
             this.ResolucaoBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.StartButton = new System.Windows.Forms.Button();
             this.ResponderButton = new System.Windows.Forms.Button();
             this.Porcentagem = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AlternativaCorretaLabel = new System.Windows.Forms.Label();
             this.AlternativaBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +68,10 @@
             // DificuldadeSwitch
             // 
             this.DificuldadeSwitch.FormattingEnabled = true;
+            this.DificuldadeSwitch.Items.AddRange(new object[] {
+            "Facil",
+            "Medio",
+            "Dificil"});
             this.DificuldadeSwitch.Location = new System.Drawing.Point(423, 26);
             this.DificuldadeSwitch.Name = "DificuldadeSwitch";
             this.DificuldadeSwitch.Size = new System.Drawing.Size(162, 21);
@@ -76,6 +80,11 @@
             // DisciplinaSwitch
             // 
             this.DisciplinaSwitch.FormattingEnabled = true;
+            this.DisciplinaSwitch.Items.AddRange(new object[] {
+            "Engenharia de Software",
+            "Banco de Dados",
+            "Linguagem de Programacao IV",
+            "Linguagem de Programacao III"});
             this.DisciplinaSwitch.Location = new System.Drawing.Point(99, 23);
             this.DisciplinaSwitch.Name = "DisciplinaSwitch";
             this.DisciplinaSwitch.Size = new System.Drawing.Size(192, 21);
@@ -116,11 +125,11 @@
             this.AlternativaBox.Controls.Add(this.LabelC);
             this.AlternativaBox.Controls.Add(this.LabelB);
             this.AlternativaBox.Controls.Add(this.LabelA);
-            this.AlternativaBox.Controls.Add(this.ButtonE);
-            this.AlternativaBox.Controls.Add(this.ButtonD);
-            this.AlternativaBox.Controls.Add(this.ButtonC);
-            this.AlternativaBox.Controls.Add(this.ButtonB);
-            this.AlternativaBox.Controls.Add(this.ButtonA);
+            this.AlternativaBox.Controls.Add(this.E);
+            this.AlternativaBox.Controls.Add(this.D);
+            this.AlternativaBox.Controls.Add(this.C);
+            this.AlternativaBox.Controls.Add(this.B);
+            this.AlternativaBox.Controls.Add(this.A);
             this.AlternativaBox.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AlternativaBox.Location = new System.Drawing.Point(21, 190);
             this.AlternativaBox.Name = "AlternativaBox";
@@ -174,69 +183,68 @@
             this.LabelA.Size = new System.Drawing.Size(0, 19);
             this.LabelA.TabIndex = 6;
             // 
-            // ButtonE
+            // E
             // 
-            this.ButtonE.AutoSize = true;
-            this.ButtonE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonE.Location = new System.Drawing.Point(15, 204);
-            this.ButtonE.Name = "ButtonE";
-            this.ButtonE.Size = new System.Drawing.Size(35, 20);
-            this.ButtonE.TabIndex = 1;
-            this.ButtonE.TabStop = true;
-            this.ButtonE.Text = "E";
-            this.ButtonE.UseVisualStyleBackColor = true;
+            this.E.AutoSize = true;
+            this.E.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E.Location = new System.Drawing.Point(15, 204);
+            this.E.Name = "E";
+            this.E.Size = new System.Drawing.Size(35, 20);
+            this.E.TabIndex = 1;
+            this.E.TabStop = true;
+            this.E.Text = "E";
+            this.E.UseVisualStyleBackColor = true;
             // 
-            // ButtonD
+            // D
             // 
-            this.ButtonD.AutoSize = true;
-            this.ButtonD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonD.Location = new System.Drawing.Point(15, 160);
-            this.ButtonD.Name = "ButtonD";
-            this.ButtonD.Size = new System.Drawing.Size(36, 20);
-            this.ButtonD.TabIndex = 2;
-            this.ButtonD.TabStop = true;
-            this.ButtonD.Text = "D";
-            this.ButtonD.UseVisualStyleBackColor = true;
+            this.D.AutoSize = true;
+            this.D.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D.Location = new System.Drawing.Point(15, 160);
+            this.D.Name = "D";
+            this.D.Size = new System.Drawing.Size(36, 20);
+            this.D.TabIndex = 2;
+            this.D.TabStop = true;
+            this.D.Text = "D";
+            this.D.UseVisualStyleBackColor = true;
             // 
-            // ButtonC
+            // C
             // 
-            this.ButtonC.AutoSize = true;
-            this.ButtonC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonC.Location = new System.Drawing.Point(15, 118);
-            this.ButtonC.Name = "ButtonC";
-            this.ButtonC.Size = new System.Drawing.Size(35, 20);
-            this.ButtonC.TabIndex = 3;
-            this.ButtonC.TabStop = true;
-            this.ButtonC.Text = "C";
-            this.ButtonC.UseVisualStyleBackColor = true;
+            this.C.AutoSize = true;
+            this.C.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C.Location = new System.Drawing.Point(15, 118);
+            this.C.Name = "C";
+            this.C.Size = new System.Drawing.Size(35, 20);
+            this.C.TabIndex = 3;
+            this.C.TabStop = true;
+            this.C.Text = "C";
+            this.C.UseVisualStyleBackColor = true;
             // 
-            // ButtonB
+            // B
             // 
-            this.ButtonB.AutoSize = true;
-            this.ButtonB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonB.Location = new System.Drawing.Point(15, 79);
-            this.ButtonB.Name = "ButtonB";
-            this.ButtonB.Size = new System.Drawing.Size(35, 20);
-            this.ButtonB.TabIndex = 4;
-            this.ButtonB.TabStop = true;
-            this.ButtonB.Text = "B";
-            this.ButtonB.UseVisualStyleBackColor = true;
+            this.B.AutoSize = true;
+            this.B.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B.Location = new System.Drawing.Point(15, 79);
+            this.B.Name = "B";
+            this.B.Size = new System.Drawing.Size(35, 20);
+            this.B.TabIndex = 4;
+            this.B.TabStop = true;
+            this.B.Text = "B";
+            this.B.UseVisualStyleBackColor = true;
             // 
-            // ButtonA
+            // A
             // 
-            this.ButtonA.AutoSize = true;
-            this.ButtonA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonA.Location = new System.Drawing.Point(15, 38);
-            this.ButtonA.Name = "ButtonA";
-            this.ButtonA.Size = new System.Drawing.Size(35, 20);
-            this.ButtonA.TabIndex = 5;
-            this.ButtonA.TabStop = true;
-            this.ButtonA.Text = "A";
-            this.ButtonA.UseVisualStyleBackColor = true;
+            this.A.AutoSize = true;
+            this.A.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A.Location = new System.Drawing.Point(15, 38);
+            this.A.Name = "A";
+            this.A.Size = new System.Drawing.Size(35, 20);
+            this.A.TabIndex = 5;
+            this.A.Text = "A";
+            this.A.UseVisualStyleBackColor = true;
             // 
             // ResolucaoBox
             // 
-            this.ResolucaoBox.Location = new System.Drawing.Point(21, 487);
+            this.ResolucaoBox.Location = new System.Drawing.Point(21, 517);
             this.ResolucaoBox.Multiline = true;
             this.ResolucaoBox.Name = "ResolucaoBox";
             this.ResolucaoBox.Size = new System.Drawing.Size(564, 87);
@@ -246,7 +254,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(16, 464);
+            this.label8.Location = new System.Drawing.Point(16, 494);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 20);
             this.label8.TabIndex = 16;
@@ -255,28 +263,30 @@
             // StartButton
             // 
             this.StartButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartButton.Location = new System.Drawing.Point(21, 591);
+            this.StartButton.Location = new System.Drawing.Point(21, 621);
             this.StartButton.Name = "StartButton";
-            this.StartButton.Size = new System.Drawing.Size(143, 49);
+            this.StartButton.Size = new System.Drawing.Size(287, 49);
             this.StartButton.TabIndex = 18;
-            this.StartButton.Text = "Start";
+            this.StartButton.Text = "Gerar uma questão";
             this.StartButton.UseVisualStyleBackColor = true;
+            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // ResponderButton
             // 
             this.ResponderButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResponderButton.Location = new System.Drawing.Point(170, 591);
+            this.ResponderButton.Location = new System.Drawing.Point(314, 621);
             this.ResponderButton.Name = "ResponderButton";
             this.ResponderButton.Size = new System.Drawing.Size(271, 49);
             this.ResponderButton.TabIndex = 18;
             this.ResponderButton.Text = "Responder";
             this.ResponderButton.UseVisualStyleBackColor = true;
+            this.ResponderButton.Click += new System.EventHandler(this.ResponderButton_Click);
             // 
             // Porcentagem
             // 
             this.Porcentagem.AutoSize = true;
             this.Porcentagem.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Porcentagem.Location = new System.Drawing.Point(19, 660);
+            this.Porcentagem.Location = new System.Drawing.Point(1, 690);
             this.Porcentagem.Name = "Porcentagem";
             this.Porcentagem.Size = new System.Drawing.Size(22, 20);
             this.Porcentagem.TabIndex = 19;
@@ -284,27 +294,27 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(82, 660);
+            this.progressBar1.Location = new System.Drawing.Point(137, 690);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(503, 23);
+            this.progressBar1.Size = new System.Drawing.Size(448, 23);
             this.progressBar1.TabIndex = 20;
             // 
-            // button1
+            // AlternativaCorretaLabel
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(447, 592);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 49);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Proxima";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AlternativaCorretaLabel.AutoSize = true;
+            this.AlternativaCorretaLabel.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AlternativaCorretaLabel.Location = new System.Drawing.Point(132, 462);
+            this.AlternativaCorretaLabel.Name = "AlternativaCorretaLabel";
+            this.AlternativaCorretaLabel.Size = new System.Drawing.Size(248, 25);
+            this.AlternativaCorretaLabel.TabIndex = 22;
+            this.AlternativaCorretaLabel.Text = "A alternativa Correta é a  ";
             // 
             // Resolucao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(621, 711);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(621, 732);
+            this.Controls.Add(this.AlternativaCorretaLabel);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.Porcentagem);
             this.Controls.Add(this.ResponderButton);
@@ -337,11 +347,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox AlternativaBox;
         private System.Windows.Forms.Label LabelA;
-        private System.Windows.Forms.RadioButton ButtonE;
-        private System.Windows.Forms.RadioButton ButtonD;
-        private System.Windows.Forms.RadioButton ButtonC;
-        private System.Windows.Forms.RadioButton ButtonB;
-        private System.Windows.Forms.RadioButton ButtonA;
+        private System.Windows.Forms.RadioButton E;
+        private System.Windows.Forms.RadioButton D;
+        private System.Windows.Forms.RadioButton C;
+        private System.Windows.Forms.RadioButton B;
+        private System.Windows.Forms.RadioButton A;
         private System.Windows.Forms.Label LabelE;
         private System.Windows.Forms.Label LabelD;
         private System.Windows.Forms.Label LabelC;
@@ -352,6 +362,6 @@
         private System.Windows.Forms.Button ResponderButton;
         private System.Windows.Forms.Label Porcentagem;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label AlternativaCorretaLabel;
     }
 }

@@ -1,0 +1,8 @@
+Para exibir algum valor na tela em PHP a sintaxe correta é
+printf
+console.writeline();
+input
+print
+echo
+echo
+E

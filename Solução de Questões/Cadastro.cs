@@ -50,6 +50,8 @@ namespace Solução_de_Questões
             }
 
             string[] Data = { Enunciado.Text, TextBoxA.Text, TextBoxB.Text, TextBoxC.Text, TextBoxD.Text, TextBoxE.Text, Resolucao.Text, AltCorreta};
+            int Lp4CountEasy = 1;
+
 
             // CADASTRO DE ENGENHARIA DE SOFTWARE POR DIFICULDADE
 
@@ -63,6 +65,14 @@ namespace Solução_de_Questões
                         EsCountEasy++;
                     }
 
+                    File.Create(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountEasy.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountEasy.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
+
+                else if (!File.Exists(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountEasy.ToString() + ".txt") == true)
+                {
                     File.Create(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountEasy.ToString() + ".txt").Close();
                     File.WriteAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountEasy.ToString() + ".txt", Data);
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
@@ -86,6 +96,14 @@ namespace Solução_de_Questões
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
                     MessageBox.Show("Cadastrado :D");
                 }
+
+                else if (!File.Exists(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountMedium.ToString() + ".txt") == true)
+                {
+                    File.Create(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountMedium.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountMedium.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
             }
 
 
@@ -99,6 +117,14 @@ namespace Solução_de_Questões
                         EsCountHard++;
                     }
 
+                    File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountHard.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountHard.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
+
+                else if (!File.Exists(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountHard.ToString() + ".txt") == true)
+                {
                     File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountHard.ToString() + ".txt").Close();
                     File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + EsCountHard.ToString() + ".txt", Data);
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
@@ -123,6 +149,14 @@ namespace Solução_de_Questões
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
                     MessageBox.Show("Cadastrado :D");
                 }
+
+                else if (!File.Exists(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountEasy.ToString() + ".txt") == true)
+                {
+                    File.Create(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountEasy.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountEasy.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
             }
 
             if (DisciplinaSwitch.Text == "Banco de Dados" && DificuldadeSwitch.Text == "Medio")
@@ -140,6 +174,14 @@ namespace Solução_de_Questões
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
                     MessageBox.Show("Cadastrado :D");
                 }
+
+                else if (!File.Exists(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountMedium.ToString() + ".txt") == true)
+                {
+                    File.Create(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountMedium.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountMedium.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
             }
 
             if (DisciplinaSwitch.Text == "Banco de Dados" && DificuldadeSwitch.Text == "Dificil")
@@ -152,6 +194,14 @@ namespace Solução_de_Questões
                         BdCountHard++;
                     }
 
+                    File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountHard.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountHard.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
+
+                else if (!File.Exists(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountHard.ToString() + ".txt") == true)
+                {
                     File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountHard.ToString() + ".txt").Close();
                     File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + BdCountHard.ToString() + ".txt", Data);
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
@@ -176,6 +226,14 @@ namespace Solução_de_Questões
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
                     MessageBox.Show("Cadastrado :D");
                 }
+
+                else if (!File.Exists(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountEasy.ToString() + ".txt") == true)
+                {
+                    File.Create(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountEasy.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountEasy.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
             }
 
             if (DisciplinaSwitch.Text == "Linguagem de Programacao III" && DificuldadeSwitch.Text == "Medio")
@@ -188,6 +246,14 @@ namespace Solução_de_Questões
                         LpCountMedium++;
                     }
 
+                    File.Create(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountMedium.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountMedium.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
+
+                else if (!File.Exists(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountMedium.ToString() + ".txt") == true)
+                {
                     File.Create(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountMedium.ToString() + ".txt").Close();
                     File.WriteAllLines(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountMedium.ToString() + ".txt", Data);
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
@@ -210,13 +276,20 @@ namespace Solução_de_Questões
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
                     MessageBox.Show("Cadastrado :D");
                 }
+
+                else if (!File.Exists(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountHard.ToString() + ".txt") == true)
+                {
+                    File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountHard.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + LpCountHard.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
             }
 
             // CADASTRO DE LINGUAGEM DE PROGRAMAÇÃO IV POR DIFICULDADE
 
             if (DisciplinaSwitch.Text == "Linguagem de Programacao IV" && DificuldadeSwitch.Text == "Facil")
             {
-                int Lp4CountEasy = 1;
                 if (File.Exists(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt") == true)
                 {
                     while (File.Exists(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt") == true)
@@ -224,6 +297,13 @@ namespace Solução_de_Questões
                         Lp4CountEasy++;
                     }
 
+                    File.Create(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
+                else if (!File.Exists(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt") == true)
+                {
                     File.Create(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt").Close();
                     File.WriteAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountEasy.ToString() + ".txt", Data);
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
@@ -246,6 +326,14 @@ namespace Solução_de_Questões
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
                     MessageBox.Show("Cadastrado :D");
                 }
+
+                else if (!File.Exists(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountMedium.ToString() + ".txt") == true)
+                {
+                    File.Create(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountMedium.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountMedium.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
             }
 
             if (DisciplinaSwitch.Text == "Linguagem de Programacao IV" && DificuldadeSwitch.Text == "Dificil")
@@ -258,6 +346,14 @@ namespace Solução_de_Questões
                         Lp4CountHard++;
                     }
 
+                    File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountHard.ToString() + ".txt").Close();
+                    File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountHard.ToString() + ".txt", Data);
+                    DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
+                    MessageBox.Show("Cadastrado :D");
+                }
+
+                else if (!File.Exists(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountHard.ToString() + ".txt") == true)
+                {
                     File.Create(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountHard.ToString() + ".txt").Close();
                     File.WriteAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + Lp4CountHard.ToString() + ".txt", Data);
                     DisciplinaSwitch.Text = DificuldadeSwitch.Text = Enunciado.Text = TextBoxA.Text = TextBoxB.Text = TextBoxC.Text = TextBoxD.Text = TextBoxE.Text = Resolucao.Text = "";
