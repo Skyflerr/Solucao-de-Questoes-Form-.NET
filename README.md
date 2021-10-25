@@ -20,7 +20,7 @@ Sistema de Cadastro e resolução de Questões feito em form .NET ,com login e c
 ### Descrição de Modos extras 
 
 ## Q.i Palace
-_Um modo de questões aleatórias apenas no modo dificeis de todas as materias com um tempo pré determinado para ser completar, com rankings__ 
+_Um modo de questões aleatórias apenas no modo dificil de todas as materias, com um tempo pré determinado para ser completar__ 
 
 ## Time Trial
-_Modo com um tempo pré determinado para se completar 10 questões em um nivel de dificuldade pré determinado_
+_Modo com um tempo de 3 minutos para se completar o maximo de questões em um nivel de dificuldade pré determinado_
