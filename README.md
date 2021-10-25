@@ -5,8 +5,8 @@ Sistema de Cadastro e resolução de Questões feito em form .NET ,com login e c
 |Funções|Progresso|
 |-------|---------|
 |Login|Completo|
-|Cadastro|Completo|
-|Resolução|Completo|
+|Cadastro de Questões|Completo|
+|Resolução de Questões|Completo|
 |Questão Aleatoria|Completo|
 
 ### Tabela de funcionalidades extras
