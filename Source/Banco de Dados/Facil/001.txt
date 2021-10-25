@@ -1,0 +1,8 @@
+Em banco de dados, a linguagem que possibilita a manipulação de dados é denominada DML (Data Manipulation Language). Sabendo disso, assinale a alternativa que apresenta somente instruções da DML de um banco de dados Oracle.
+create insert select
+delete update insert 
+alter delete select
+grant alter delete
+insert alter select
+
+B

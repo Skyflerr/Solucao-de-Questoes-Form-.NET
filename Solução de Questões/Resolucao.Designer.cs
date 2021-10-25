@@ -58,7 +58,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(316, 24);
+            this.label11.Location = new System.Drawing.Point(488, 35);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(91, 20);
             this.label11.TabIndex = 12;
@@ -71,7 +71,7 @@
             "Facil",
             "Medio",
             "Dificil"});
-            this.DificuldadeSwitch.Location = new System.Drawing.Point(423, 26);
+            this.DificuldadeSwitch.Location = new System.Drawing.Point(585, 33);
             this.DificuldadeSwitch.Name = "DificuldadeSwitch";
             this.DificuldadeSwitch.Size = new System.Drawing.Size(162, 21);
             this.DificuldadeSwitch.TabIndex = 11;
@@ -83,7 +83,7 @@
             "Banco de Dados",
             "Linguagem de Programacao IV",
             "Linguagem de Programacao III"});
-            this.DisciplinaSwitch.Location = new System.Drawing.Point(99, 23);
+            this.DisciplinaSwitch.Location = new System.Drawing.Point(278, 34);
             this.DisciplinaSwitch.Name = "DisciplinaSwitch";
             this.DisciplinaSwitch.Size = new System.Drawing.Size(192, 21);
             this.DisciplinaSwitch.TabIndex = 10;
@@ -92,7 +92,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 23);
+            this.label1.Location = new System.Drawing.Point(191, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 9;
@@ -100,11 +100,11 @@
             // 
             // EnunciadoBox
             // 
-            this.EnunciadoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnunciadoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EnunciadoBox.Location = new System.Drawing.Point(20, 84);
             this.EnunciadoBox.Multiline = true;
             this.EnunciadoBox.Name = "EnunciadoBox";
-            this.EnunciadoBox.Size = new System.Drawing.Size(565, 87);
+            this.EnunciadoBox.Size = new System.Drawing.Size(893, 87);
             this.EnunciadoBox.TabIndex = 14;
             // 
             // label2
@@ -132,7 +132,7 @@
             this.AlternativaBox.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AlternativaBox.Location = new System.Drawing.Point(21, 190);
             this.AlternativaBox.Name = "AlternativaBox";
-            this.AlternativaBox.Size = new System.Drawing.Size(564, 259);
+            this.AlternativaBox.Size = new System.Drawing.Size(892, 263);
             this.AlternativaBox.TabIndex = 15;
             this.AlternativaBox.TabStop = false;
             this.AlternativaBox.Text = "Alternativas";
@@ -186,7 +186,7 @@
             // 
             this.E.AutoSize = true;
             this.E.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E.Location = new System.Drawing.Point(15, 204);
+            this.E.Location = new System.Drawing.Point(6, 205);
             this.E.Name = "E";
             this.E.Size = new System.Drawing.Size(35, 20);
             this.E.TabIndex = 1;
@@ -198,7 +198,7 @@
             // 
             this.D.AutoSize = true;
             this.D.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D.Location = new System.Drawing.Point(15, 160);
+            this.D.Location = new System.Drawing.Point(6, 161);
             this.D.Name = "D";
             this.D.Size = new System.Drawing.Size(36, 20);
             this.D.TabIndex = 2;
@@ -210,7 +210,7 @@
             // 
             this.C.AutoSize = true;
             this.C.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C.Location = new System.Drawing.Point(15, 118);
+            this.C.Location = new System.Drawing.Point(6, 120);
             this.C.Name = "C";
             this.C.Size = new System.Drawing.Size(35, 20);
             this.C.TabIndex = 3;
@@ -222,7 +222,7 @@
             // 
             this.B.AutoSize = true;
             this.B.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B.Location = new System.Drawing.Point(15, 79);
+            this.B.Location = new System.Drawing.Point(6, 81);
             this.B.Name = "B";
             this.B.Size = new System.Drawing.Size(35, 20);
             this.B.TabIndex = 4;
@@ -234,7 +234,7 @@
             // 
             this.A.AutoSize = true;
             this.A.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A.Location = new System.Drawing.Point(15, 38);
+            this.A.Location = new System.Drawing.Point(6, 40);
             this.A.Name = "A";
             this.A.Size = new System.Drawing.Size(35, 20);
             this.A.TabIndex = 5;
@@ -243,8 +243,8 @@
             // 
             // ResolucaoBox
             // 
-            this.ResolucaoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResolucaoBox.Location = new System.Drawing.Point(21, 517);
+            this.ResolucaoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResolucaoBox.Location = new System.Drawing.Point(183, 510);
             this.ResolucaoBox.Multiline = true;
             this.ResolucaoBox.Name = "ResolucaoBox";
             this.ResolucaoBox.Size = new System.Drawing.Size(564, 87);
@@ -254,7 +254,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(16, 494);
+            this.label8.Location = new System.Drawing.Point(178, 487);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 20);
             this.label8.TabIndex = 16;
@@ -263,7 +263,7 @@
             // StartButton
             // 
             this.StartButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartButton.Location = new System.Drawing.Point(21, 621);
+            this.StartButton.Location = new System.Drawing.Point(183, 614);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(287, 49);
             this.StartButton.TabIndex = 18;
@@ -274,7 +274,7 @@
             // ResponderButton
             // 
             this.ResponderButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResponderButton.Location = new System.Drawing.Point(314, 621);
+            this.ResponderButton.Location = new System.Drawing.Point(476, 614);
             this.ResponderButton.Name = "ResponderButton";
             this.ResponderButton.Size = new System.Drawing.Size(271, 49);
             this.ResponderButton.TabIndex = 18;
@@ -284,7 +284,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(21, 690);
+            this.progressBar1.Location = new System.Drawing.Point(183, 683);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(564, 23);
             this.progressBar1.TabIndex = 20;
@@ -293,7 +293,7 @@
             // 
             this.AlternativaCorretaLabel.AutoSize = true;
             this.AlternativaCorretaLabel.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AlternativaCorretaLabel.Location = new System.Drawing.Point(132, 462);
+            this.AlternativaCorretaLabel.Location = new System.Drawing.Point(294, 455);
             this.AlternativaCorretaLabel.Name = "AlternativaCorretaLabel";
             this.AlternativaCorretaLabel.Size = new System.Drawing.Size(0, 25);
             this.AlternativaCorretaLabel.TabIndex = 22;
@@ -302,7 +302,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(621, 732);
+            this.ClientSize = new System.Drawing.Size(935, 733);
             this.Controls.Add(this.AlternativaCorretaLabel);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.ResponderButton);
@@ -316,8 +316,10 @@
             this.Controls.Add(this.DificuldadeSwitch);
             this.Controls.Add(this.DisciplinaSwitch);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Resolucao";
-            this.Text = "Resolucao";
+            this.ShowIcon = false;
             this.AlternativaBox.ResumeLayout(false);
             this.AlternativaBox.PerformLayout();
             this.ResumeLayout(false);

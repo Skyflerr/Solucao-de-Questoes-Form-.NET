@@ -89,7 +89,7 @@
             "Facil",
             "Medio",
             "Dificil"});
-            this.DificuldadeSwitch.Location = new System.Drawing.Point(418, 27);
+            this.DificuldadeSwitch.Location = new System.Drawing.Point(395, 27);
             this.DificuldadeSwitch.Name = "DificuldadeSwitch";
             this.DificuldadeSwitch.Size = new System.Drawing.Size(162, 21);
             this.DificuldadeSwitch.TabIndex = 2;
@@ -313,7 +313,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(311, 25);
+            this.label11.Location = new System.Drawing.Point(288, 25);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(91, 20);
             this.label11.TabIndex = 8;
@@ -334,7 +334,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 784);
+            this.ClientSize = new System.Drawing.Size(578, 784);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.GabaritoBox);
@@ -347,8 +347,10 @@
             this.Controls.Add(this.DificuldadeSwitch);
             this.Controls.Add(this.DisciplinaSwitch);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Cadastro";
-            this.Text = "Cadastro";
+            this.ShowIcon = false;
             this.AlternativaBox.ResumeLayout(false);
             this.AlternativaBox.PerformLayout();
             this.GabaritoBox.ResumeLayout(false);

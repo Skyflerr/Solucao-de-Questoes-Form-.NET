@@ -37,6 +37,18 @@ namespace Solução_de_Questões
             set { _Resolucao = value; }
         }
 
+        public static string GetUsersPath()
+        {
+            string CurrentDirectory = Directory.GetCurrentDirectory();
+            return CurrentDirectory.Remove(72) + @"\Source\Users\Users.txt";
+        }
+
+        public static string GetPasswordsPath()
+        {
+            string CurrentDirectory = Directory.GetCurrentDirectory();
+            return CurrentDirectory.Remove(72) + @"\Source\Users\Passwords.txt";
+        }
+
         public static string ReverseString(string CommunString)
         {
             char[] ReverseStringArray = CommunString.ToCharArray();
@@ -67,6 +79,20 @@ namespace Solução_de_Questões
                     return "Linguagem de Programacao III";
             }
             return null;
+        }
+
+        public static string GetEasyDifficulty(string Disciplina)
+        {
+            string CurrentDirectory = Directory.GetCurrentDirectory();
+            string EasyDifficulty = CurrentDirectory.Remove(72) + @"\Source\" + Disciplina + @"\Facil";
+            return EasyDifficulty;
+        }
+
+        public static string GetMediumDifficulty(string Disciplina)
+        {
+            string CurrentDirectory = Directory.GetCurrentDirectory();
+            string MediumDifficulty = CurrentDirectory.Remove(72) + @"\Source\" + Disciplina + @"\Medio";
+            return MediumDifficulty;
         }
 
         public static string GetHardDifficulty(string Disciplina)

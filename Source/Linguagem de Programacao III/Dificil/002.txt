@@ -1,0 +1,8 @@
+ Em relação ao mecanismo de passagem de parâmetros em C#, é correto afirmar:
+Quando você passa um argumento para um método, o parâmetro correspondente é inicializado com uma cópia do argumento, inclusive para um tipo-referência.
+As palavras-chaves ref e out indicam, respectivamente, passagem de parâmetro por referência e por valor.
+Parâmetros declarados com o modificador virtual indicam que as superclasses precisam definir seu tipo.
+O modificador override atribuído a um argumento de método, implica o ocultamento do tipo definido na classe-pai.
+Argumentos do tipo int que recebam parâmetros do tipo WrappedInt sofrem a operação de boxing antes da cópia dos valores.
+Quando você passa um argumento para um método, o parâmetro correspondente é inicializado com uma cópia do argumento, inclusive para um tipo-referência.
+A

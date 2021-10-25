@@ -56,7 +56,7 @@
             // progressBar1
             // 
             this.progressBar1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.progressBar1.Location = new System.Drawing.Point(32, 676);
+            this.progressBar1.Location = new System.Drawing.Point(191, 766);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(564, 23);
             this.progressBar1.TabIndex = 34;
@@ -65,7 +65,7 @@
             // 
             this.ResponderButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ResponderButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResponderButton.Location = new System.Drawing.Point(241, 607);
+            this.ResponderButton.Location = new System.Drawing.Point(400, 697);
             this.ResponderButton.Name = "ResponderButton";
             this.ResponderButton.Size = new System.Drawing.Size(355, 49);
             this.ResponderButton.TabIndex = 31;
@@ -77,7 +77,7 @@
             // 
             this.StartButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.StartButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartButton.Location = new System.Drawing.Point(32, 607);
+            this.StartButton.Location = new System.Drawing.Point(191, 697);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(203, 49);
             this.StartButton.TabIndex = 32;
@@ -88,18 +88,18 @@
             // ResolucaoBox
             // 
             this.ResolucaoBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ResolucaoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResolucaoBox.Location = new System.Drawing.Point(32, 503);
+            this.ResolucaoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResolucaoBox.Location = new System.Drawing.Point(32, 593);
             this.ResolucaoBox.Multiline = true;
             this.ResolucaoBox.Name = "ResolucaoBox";
-            this.ResolucaoBox.Size = new System.Drawing.Size(564, 87);
+            this.ResolucaoBox.Size = new System.Drawing.Size(891, 87);
             this.ResolucaoBox.TabIndex = 30;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(27, 480);
+            this.label8.Location = new System.Drawing.Point(34, 566);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 20);
             this.label8.TabIndex = 29;
@@ -118,9 +118,9 @@
             this.AlternativaBox.Controls.Add(this.B);
             this.AlternativaBox.Controls.Add(this.A);
             this.AlternativaBox.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AlternativaBox.Location = new System.Drawing.Point(32, 206);
+            this.AlternativaBox.Location = new System.Drawing.Point(32, 216);
             this.AlternativaBox.Name = "AlternativaBox";
-            this.AlternativaBox.Size = new System.Drawing.Size(564, 259);
+            this.AlternativaBox.Size = new System.Drawing.Size(891, 347);
             this.AlternativaBox.TabIndex = 28;
             this.AlternativaBox.TabStop = false;
             this.AlternativaBox.Text = "Alternativas";
@@ -174,7 +174,7 @@
             // 
             this.E.AutoSize = true;
             this.E.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E.Location = new System.Drawing.Point(15, 204);
+            this.E.Location = new System.Drawing.Point(6, 273);
             this.E.Name = "E";
             this.E.Size = new System.Drawing.Size(35, 20);
             this.E.TabIndex = 1;
@@ -186,7 +186,7 @@
             // 
             this.D.AutoSize = true;
             this.D.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D.Location = new System.Drawing.Point(15, 160);
+            this.D.Location = new System.Drawing.Point(6, 219);
             this.D.Name = "D";
             this.D.Size = new System.Drawing.Size(36, 20);
             this.D.TabIndex = 2;
@@ -198,7 +198,7 @@
             // 
             this.C.AutoSize = true;
             this.C.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C.Location = new System.Drawing.Point(15, 118);
+            this.C.Location = new System.Drawing.Point(6, 162);
             this.C.Name = "C";
             this.C.Size = new System.Drawing.Size(35, 20);
             this.C.TabIndex = 3;
@@ -210,7 +210,7 @@
             // 
             this.B.AutoSize = true;
             this.B.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B.Location = new System.Drawing.Point(15, 79);
+            this.B.Location = new System.Drawing.Point(6, 99);
             this.B.Name = "B";
             this.B.Size = new System.Drawing.Size(35, 20);
             this.B.TabIndex = 4;
@@ -222,7 +222,7 @@
             // 
             this.A.AutoSize = true;
             this.A.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A.Location = new System.Drawing.Point(15, 38);
+            this.A.Location = new System.Drawing.Point(6, 38);
             this.A.Name = "A";
             this.A.Size = new System.Drawing.Size(35, 20);
             this.A.TabIndex = 5;
@@ -233,18 +233,18 @@
             // EnunciadoBox
             // 
             this.EnunciadoBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.EnunciadoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EnunciadoBox.Location = new System.Drawing.Point(31, 100);
+            this.EnunciadoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnunciadoBox.Location = new System.Drawing.Point(32, 107);
             this.EnunciadoBox.Multiline = true;
             this.EnunciadoBox.Name = "EnunciadoBox";
-            this.EnunciadoBox.Size = new System.Drawing.Size(565, 87);
+            this.EnunciadoBox.Size = new System.Drawing.Size(891, 87);
             this.EnunciadoBox.TabIndex = 27;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 77);
+            this.label2.Location = new System.Drawing.Point(34, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 26;
@@ -254,7 +254,7 @@
             // 
             this.LifeSpamLabel.AutoSize = true;
             this.LifeSpamLabel.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LifeSpamLabel.Location = new System.Drawing.Point(320, 34);
+            this.LifeSpamLabel.Location = new System.Drawing.Point(323, 49);
             this.LifeSpamLabel.Name = "LifeSpamLabel";
             this.LifeSpamLabel.Size = new System.Drawing.Size(189, 28);
             this.LifeSpamLabel.TabIndex = 36;
@@ -274,7 +274,7 @@
             // 
             this.LifeSpam.Controls.Add(this.LifeSpamCount);
             this.LifeSpam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LifeSpam.Location = new System.Drawing.Point(515, 12);
+            this.LifeSpam.Location = new System.Drawing.Point(518, 27);
             this.LifeSpam.Name = "LifeSpam";
             this.LifeSpam.Size = new System.Drawing.Size(81, 62);
             this.LifeSpam.TabIndex = 38;
@@ -285,7 +285,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(635, 732);
+            this.ClientSize = new System.Drawing.Size(935, 825);
             this.Controls.Add(this.LifeSpamLabel);
             this.Controls.Add(this.LifeSpam);
             this.Controls.Add(this.progressBar1);
@@ -296,9 +296,12 @@
             this.Controls.Add(this.AlternativaBox);
             this.Controls.Add(this.EnunciadoBox);
             this.Controls.Add(this.label2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Q";
             this.Opacity = 0.88D;
-            this.Text = "Q.I PALACE";
+            this.ShowIcon = false;
+            this.Text = "PALACE";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.AlternativaBox.ResumeLayout(false);
             this.AlternativaBox.PerformLayout();

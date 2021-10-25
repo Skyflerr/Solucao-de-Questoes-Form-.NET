@@ -1,0 +1,8 @@
+No modelo transacional, qual é o significado correto das propriedades ACID descritas abaixo?
+A accuracy (A) avalia a precisão  em que dados são salvos
+Atomicidade (A) assegura que as operações realizadas não afetem as operações que estão sendo realizadas em paralelo
+A Consistencia (C) assegura que os efeitos de uma transação, em caso de commit se mantenham no banco de dados
+Isolamento (I) são técnicas que procuram evitar que transações paralelas interfiram umas nas outras 
+Durabilidade (D) garante que as transações devem ter as suas operações executadas 
+A letra D está correta, pois o isolamento garante que uma transação não seja afetada por outra transação que está rodando em paralelo.
+D

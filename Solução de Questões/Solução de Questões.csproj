@@ -79,12 +79,6 @@
     <Compile Include="Resolucao.Designer.cs">
       <DependentUpon>Resolucao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Time Trial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Time Trial.Designer.cs">
-      <DependentUpon>Time Trial.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,9 +102,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resolucao.resx">
       <DependentUpon>Resolucao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Time Trial.resx">
-      <DependentUpon>Time Trial.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

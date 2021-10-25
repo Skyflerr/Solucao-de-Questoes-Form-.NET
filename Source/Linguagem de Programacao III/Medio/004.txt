@@ -1,0 +1,8 @@
+Sobre orientação a objetos é correto afirmar:
+Na hierarquia de classes, se superclasse é uma generalização de subclasses, pode-se inferir que a subclasse é uma especialização de superclasse.
+Numa árvore genealógica de classes, a classe mais baixa herda os atributos e métodos somente da superclasse no nível imediatamente acima.
+As variáveis de uma classe só podem ser alteradas por métodos definidos nos seus objetos.
+O polimorfismo se caracteriza quando, para mensagens distintas, objetos diferentes responderem ou agirem de forma idêntica.
+Os objetos de uma classe são idênticos no que se refere à sua interface e ao seu estado.
+Na hierarquia de classes, se superclasse é uma generalização de subclasses, pode-se inferir que a subclasse é uma especialização de superclasse.
+A

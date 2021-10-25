@@ -1,0 +1,8 @@
+O Hypertext Preprocessor (PHP) é uma linguagem de script usada no desenvolvimento web. Sobre o PHP, marque V para as afirmativas verdadeiras e F para as falsas. ( ) Possui tag que indica final do código PHP. ( ) Trata-se de uma linguagem open source. ( ) Elimina o uso de códigos HTML e CSS. ( ) O código é executado apenas no cliente. Assinale a sequência correta.
+V V F F
+ F F V V
+F V F V
+V F V F 
+V F F V
+
+A

@@ -1,0 +1,8 @@
+Marcos está desenvolvendo uma aplicação web PHP utilizando o WAMPServer. Como está utilizando um banco de dados MySQL, escolheu uma função para enviar uma consulta ou comando SQL (por exemplo, os comandos select, insert ou delete) para o banco de dados ativo. A função correta escolhida foi:
+mysql_fetch_array.
+mysql_query.
+mysql_update
+mysql_execute_stmt.
+mysql_stmt_start.
+mysql_query.
+B

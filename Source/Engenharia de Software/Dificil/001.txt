@@ -1,0 +1,8 @@
+Existem duas partes na compilação: a análise e a síntese. A parte de análise divide o programa fonte nas partes constituintes e cria uma representação intermediária do mesmo. Durante a análise, as operações implicadas pelo programa fonte são determinadas e registradas em uma estrutura denominada de
+lista
+pilha
+fila
+arvore
+hash
+arvore
+D

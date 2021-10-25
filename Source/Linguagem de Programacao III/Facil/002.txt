@@ -1,0 +1,8 @@
+Programas escritos em C# operam na presença do .NET framework, que é uma tecnologia cujos elementos fundamentais são: 
+um interpretador universal e um conjunto unificado de tipos de dados;
+um ambiente comum de runtime e uma biblioteca de classes.
+um ambiente comum de runtime e um ambiente comum de desenvolvimento;
+um interpretador universal e um conjunto de WEB services;
+um conjunto unificado de tipos de dados e um conjunto de WEB services;
+Quase tudo em C# é feito em classes 
+B

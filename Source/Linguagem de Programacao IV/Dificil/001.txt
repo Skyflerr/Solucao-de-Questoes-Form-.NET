@@ -1,0 +1,8 @@
+Considerando as funções do PHP para manipulação de documentos em PDF, uma delas “preenche o caminho atual e o desenha no documento”. Trata-se de:
+pdf_fill
+pdf_stroke
+pdf_fill_stroke
+pdf_fill_textblock
+pdf_append
+pdf_fill_stroke é a sintaxe correta
+C

@@ -1,4 +1,4 @@
-Em C#, o processo de instanciação, ou seja, de criação de novos objetos, é realizado através do comando cuja sintaxe adequada é: 
+Em C#, o processo de instanciação, ou seja, de criação de novos objetos, é realizado através do comando cuja sintaxe adequada é:
 nome_Classe = new nome_Objeto(); 
 nome_Classe nome_Objeto = new nome_Classe(); 
 nome_Instancia nome_Classe = new nome_Objeto();

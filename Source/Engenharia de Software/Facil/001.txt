@@ -1,8 +1,8 @@
-qual são os startes de khanto
-bubassauro, squirtle, charmander
-cyndaquil , totodile, chicorita
-torchic, mudkip, treeko
-piplup, torterra, esqueci
-a
-khanto
-A
+Qual das abaixo é uma metodologia de desenvolvimento
+C#
+Proxy
+Docker
+Cookie
+Scrum
+Scrum é uma metodologia de desenvolvimento
+E

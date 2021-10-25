@@ -1,8 +1,8 @@
-Sobre os métodos construtores, é correto afirmar que: 
-Só pode existir um método construtor na classe.
-Não podem receber mais que dois parâmetros.
-Asseguram o encapsulamento.
-Não apresentam tipo de retorno.
-São sempre públicos
-Método construtores não apresentam algum tipo de retorno.
-D
+Na linguagem PHP, $_REQUEST se refere a um array associativo
+contendo variáveis de sessão disponíveis para o atual script.
+de variáveis passadas para o script atual via método HTTP REQUEST.
+que, por padrão, contém informações de $_GET, $_POST e $_COOKIE.
+contendo informações como cabeçalhos, paths, e localizações do script.
+contendo referências para todas as variáveis que estão atualmente definidas no escopo global do script.
+que, por padrão, contém informações de $_GET, $_POST e $_COOKIE.
+C

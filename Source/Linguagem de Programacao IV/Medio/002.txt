@@ -1,0 +1,8 @@
+O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML. Sobre esta linguagem na versão 7.0 ou superior, assinale a alternativa INCORRETA:
+A maneira mais simples de se especificar uma string no PHP é delimitá-la entre aspas simples.
+Quando PHP interpreta um arquivo, uma procura pelas tags de abertura e fechamento, <?php e ?>, é realizada. Estas tags indicam para iniciar ou parar a interpretação do código entre elas.
+Existe a possibilidade dos valores do array em PHP serem outros arrays e árvores
+Um array no PHP é tipo que relaciona valores a chaves. Este tipo é otimizado para várias usos diferentes
+Para definir uma classe no PHP, deve-se começar com a palavra-chave class, seguida do nome da classe e de um par de colchetes 
+ Incluindo a biblioteca com a diretiva #include<Arrays> , é possível realizar a manipulação de arrays multidimensionais.
+C

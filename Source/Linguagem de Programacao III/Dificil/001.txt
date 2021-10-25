@@ -1,8 +1,12 @@
-Quais são os 3 protetores de variaveis de uma classe
-include using e import 
-print echo e console.writeline
-public private e protected
-herança polimorfismo e classe
-nenhuma das opções acima 
-public private e protected são protetores usados em classe e funções 
-C
+I. Internal.
+II. Private.
+III. Protected.
+IV. External.
+Assinale a opção que indica os modificadores da lista acima que, além do modificador public, são válidos no C#, quando da especificação da acessibilidade de um membro ou tipo.
+I, II e III, apenas
+I, II e IV, apenas.
+I, III e IV, apenas.
+II, III e IV, apenas.
+II e III, apenas.
+
+A

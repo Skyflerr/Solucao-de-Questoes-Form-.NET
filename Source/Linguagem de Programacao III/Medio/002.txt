@@ -1,8 +1,8 @@
-Quando uma instância é default, ela é:
-Pública
-Privada
-Depende da classe
-Depende do tipo
-Depende do método
-Uma instância default é privada.
-B
+Sobre os métodos construtores, é correto afirmar que: 
+Só pode existir um método construtor na classe.
+Não podem receber mais que dois parâmetros.
+Asseguram o encapsulamento.
+Não apresentam tipo de retorno.
+São sempre públicos
+Método construtores não apresentam algum tipo de retorno.
+D

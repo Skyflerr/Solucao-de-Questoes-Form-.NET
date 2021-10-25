@@ -1,8 +1,8 @@
-Para exibir algum valor na tela em PHP a sintaxe correta é
-printf
-console.writeline();
-input
-print
-echo
-echo
-E
+Considere as seguintes linguagens de programação:     C C++ C# Java VB.NET SmallTalk Python Dessa lista, a linguagem que não oferece suporte a orientação objetos é :
+C
+C#
+C++
+vb.NET
+SmallTalk
+C possui um sistema de struct, mas nao de programação orientada a objeto 
+A

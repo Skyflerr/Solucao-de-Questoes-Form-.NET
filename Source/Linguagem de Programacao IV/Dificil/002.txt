@@ -1,0 +1,8 @@
+Comando do PHP (Personal Home Page) “adiciona um parâmetro a um procedimento armazenado local ou remoto quando utilizado com o Microsoft SQL Server”. A afirmativa se refere a:
+mssql_init
+mssql_bind
+mssql_execute
+mssql_fetch_row
+oracle_flush
+mssql_bind é a sintaxe correta
+B

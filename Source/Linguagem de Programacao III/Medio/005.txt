@@ -1,0 +1,8 @@
+Uma Linguagem de Programação (LP) é um método padronizado para expressar instruções para um computador. Um paradigma é um conjunto de características que serve para categorizar um grupo de linguagens de programação. Considerando este tema, é correto afirmar que:
+Todo programa escrito em uma LP deve ser traduzido para a linguagem de montagem para ser executado
+No processo de interpretação, a instrução é traduzida para HTML e executada no momento da execução do programa.
+O processo de compilação efetua a tradução integral do código fonte para o código de máquina
+O processo híbrido combina a execução eficiente e a portabilidade de programas.
+No paradigma declarativo os programas são especificações de como são as tarefas a serem realizadas.
+A base é a existência de um código intermediário, mais fácil de ser interpretado e não específico de uma plataforma computacional. O método é dividido em duas etapas: compilação para um código intermediário e interpretação desse código. Um exemplo é a linguagem Java que utiliza a JVM.
+D

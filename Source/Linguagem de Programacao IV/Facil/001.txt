@@ -1,8 +1,8 @@
-A linguagem php e especificamente para
-mobile
-hardware
-web
-linux
-nenhuma das opções
-web
-C
+A linguagem PHP é exclusivamente de 
+Web e Servidor 
+Linux
+Mobile
+.Net Core
+Hardware
+Web e Servidor 
+A

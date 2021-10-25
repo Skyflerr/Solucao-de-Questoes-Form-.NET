@@ -18,41 +18,6 @@ namespace Solução_de_Questões
             InitializeComponent();
         }
 
-        public static string GetEasyDifficulty(string Disciplina)
-        {
-            string CurrentDirectory = Directory.GetCurrentDirectory();
-            string EasyDifficulty = CurrentDirectory.Remove(72) + @"\Source\" + Disciplina + @"\Facil";
-            return EasyDifficulty;
-        }
-
-        public static string GetMediumDifficulty(string Disciplina)
-        {
-            string CurrentDirectory = Directory.GetCurrentDirectory();
-            string MediumDifficulty = CurrentDirectory.Remove(72) + @"\Source\" + Disciplina + @"\Medio";
-            return MediumDifficulty;
-        }
-
-        public static string GetHardDifficulty(string Disciplina)
-        {
-            string CurrentDirectory = Directory.GetCurrentDirectory();
-            string HardDifficulty = CurrentDirectory.Remove(72) + @"\Source\" + Disciplina + @"\Dificil";
-            return HardDifficulty;
-        }
-
-        public static string ReverseString(string CommunString)
-        {
-            char[] ReverseStringArray = CommunString.ToCharArray();
-            Array.Reverse(ReverseStringArray);
-
-            string ReversedString = "";
-
-            foreach (char x in ReverseStringArray)
-                ReversedString += x;
-
-            return ReversedString;
-        }
-
-
         private void StartButton_Click(object sender, EventArgs e)
         {
             ResolucaoBox.Text = "";
@@ -61,14 +26,14 @@ namespace Solução_de_Questões
             {
                 case "Facil":
                     {
-                        DirectoryInfo x = new DirectoryInfo(GetEasyDifficulty(DisciplinaSwitch.Text));
+                        DirectoryInfo x = new DirectoryInfo(Global.GetEasyDifficulty(DisciplinaSwitch.Text));
                         FileInfo[] files = x.GetFiles("*.txt");
                         string FileAux = "";
                         foreach (FileInfo File in files)
                             FileAux = FileAux + ", " + File.Name;
 
                         Random rnd = new Random(); 
-                        List<string> Data = File.ReadAllLines(GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + rnd.Next(1, int.Parse(ReverseString(FileAux)[4].ToString()) + 1).ToString() + ".txt").ToList();
+                        List<string> Data = File.ReadAllLines(Global.GetEasyDifficulty(DisciplinaSwitch.Text) + @"\00" + rnd.Next(1, int.Parse(Global.ReverseString(FileAux)[4].ToString()) + 1).ToString() + ".txt").ToList();
 
                         EnunciadoBox.Text = Data[0];
                         A.Text = Data[1];
@@ -83,14 +48,14 @@ namespace Solução_de_Questões
 
                 case "Medio":
                     {
-                        DirectoryInfo x = new DirectoryInfo(GetMediumDifficulty(DisciplinaSwitch.Text));
+                        DirectoryInfo x = new DirectoryInfo(Global.GetMediumDifficulty(DisciplinaSwitch.Text));
                         FileInfo[] files = x.GetFiles("*.txt");
                         string FileAux = "";
                         foreach (FileInfo File in files)
                             FileAux = FileAux + ", " + File.Name;
 
                         Random rnd = new Random();
-                        List<string> Data = File.ReadAllLines(GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + rnd.Next(1, int.Parse(ReverseString(FileAux)[4].ToString()) + 1).ToString() + ".txt").ToList();
+                        List<string> Data = File.ReadAllLines(Global.GetMediumDifficulty(DisciplinaSwitch.Text) + @"\00" + rnd.Next(1, int.Parse(Global.ReverseString(FileAux)[4].ToString()) + 1).ToString() + ".txt").ToList();
 
                         EnunciadoBox.Text = Data[0];
                         A.Text = Data[1];
@@ -105,14 +70,14 @@ namespace Solução_de_Questões
 
                 case "Dificil":
                     {
-                        DirectoryInfo x = new DirectoryInfo(GetHardDifficulty(DisciplinaSwitch.Text));
+                        DirectoryInfo x = new DirectoryInfo(Global.GetHardDifficulty(DisciplinaSwitch.Text));
                         FileInfo[] files = x.GetFiles("*.txt");
                         string FileAux = "";
                         foreach (FileInfo File in files)
                             FileAux = FileAux + ", " + File.Name;
 
                         Random rnd = new Random();
-                        List<string> Data = File.ReadAllLines(GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + rnd.Next(1, int.Parse(ReverseString(FileAux)[4].ToString()) + 1).ToString() + ".txt").ToList();
+                        List<string> Data = File.ReadAllLines(Global.GetHardDifficulty(DisciplinaSwitch.Text) + @"\00" + rnd.Next(1, int.Parse(Global.ReverseString(FileAux)[4].ToString()) + 1).ToString() + ".txt").ToList();
 
                         EnunciadoBox.Text = Data[0];
                         A.Text = Data[1];
@@ -179,6 +144,5 @@ namespace Solução_de_Questões
                 x.ShowDialog();
             }
         }
-
     }
 }

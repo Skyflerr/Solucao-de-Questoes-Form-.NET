@@ -12,4 +12,3 @@ C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solu
 C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Cadastro.resources
 C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Resolucao.resources
 C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Q.resources
-C:\Users\skyem\Documents\Code Projects\Visual studio\Solução de Questões\Solução de Questões\obj\Debug\Solução_de_Questões.Time_Trial.resources

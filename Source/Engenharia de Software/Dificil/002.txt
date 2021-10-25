@@ -1,0 +1,8 @@
+Com relação às linguagens de montagem é correto afirmar:
+Em dispositivos, como cartões inteligentes, notebooks e processadores embutidos em eletrodomésticos, a linguagem de montagem é a melhor alternativa devido à escassez de memória.
+Um programa em linguagem de montagem sempre pode ser executado em diversas arquiteturas, assim como um programa escrito em linguagem de alto nível.
+O programador de linguagem de montagem tem acesso a aspectos e instruções disponíveis na arquitetura alvo não disponíveis em linguagens de alto nível.
+Uma linguagem de montagem pura é uma linguagem na qual cada declaração produz várias instruções de máquina
+A razão por que as pessoas usam linguagem de máquina, ao contrário de programação em linguagem de montagem, é que é muito mais fácil programar em linguagem de máquina.
+O programador de linguagem de montagem tem acesso a aspectos e instruções disponíveis na arquitetura alvo não disponíveis em linguagens de alto nível.
+C

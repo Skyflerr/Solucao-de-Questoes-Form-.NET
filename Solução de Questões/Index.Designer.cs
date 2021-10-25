@@ -28,16 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Index));
             this.MenuLabel = new System.Windows.Forms.Label();
-            this.SelectionBox = new System.Windows.Forms.GroupBox();
+            this.PalaceButton = new System.Windows.Forms.Button();
             this.ResponderButton = new System.Windows.Forms.Button();
             this.CadastrarButton = new System.Windows.Forms.Button();
-            this.ModesBox = new System.Windows.Forms.GroupBox();
-            this.RandomButton = new System.Windows.Forms.Button();
-            this.PalaceButton = new System.Windows.Forms.Button();
-            this.TimeButton = new System.Windows.Forms.Button();
-            this.SelectionBox.SuspendLayout();
-            this.ModesBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuLabel
@@ -50,22 +45,23 @@
             this.MenuLabel.TabIndex = 0;
             this.MenuLabel.Text = "Menu";
             // 
-            // SelectionBox
+            // PalaceButton
             // 
-            this.SelectionBox.Controls.Add(this.ResponderButton);
-            this.SelectionBox.Controls.Add(this.CadastrarButton);
-            this.SelectionBox.Location = new System.Drawing.Point(25, 121);
-            this.SelectionBox.Name = "SelectionBox";
-            this.SelectionBox.Size = new System.Drawing.Size(514, 202);
-            this.SelectionBox.TabIndex = 1;
-            this.SelectionBox.TabStop = false;
-            this.SelectionBox.Text = "Seleção";
+            this.PalaceButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.PalaceButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PalaceButton.Location = new System.Drawing.Point(176, 309);
+            this.PalaceButton.Name = "PalaceButton";
+            this.PalaceButton.Size = new System.Drawing.Size(213, 48);
+            this.PalaceButton.TabIndex = 0;
+            this.PalaceButton.Text = "Q.I Palace";
+            this.PalaceButton.UseVisualStyleBackColor = false;
+            this.PalaceButton.Click += new System.EventHandler(this.PalaceButton_Click);
             // 
             // ResponderButton
             // 
             this.ResponderButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ResponderButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResponderButton.Location = new System.Drawing.Point(150, 114);
+            this.ResponderButton.Location = new System.Drawing.Point(176, 219);
             this.ResponderButton.Name = "ResponderButton";
             this.ResponderButton.Size = new System.Drawing.Size(213, 48);
             this.ResponderButton.TabIndex = 1;
@@ -77,7 +73,7 @@
             // 
             this.CadastrarButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CadastrarButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CadastrarButton.Location = new System.Drawing.Point(150, 31);
+            this.CadastrarButton.Location = new System.Drawing.Point(176, 152);
             this.CadastrarButton.Name = "CadastrarButton";
             this.CadastrarButton.Size = new System.Drawing.Size(213, 48);
             this.CadastrarButton.TabIndex = 0;
@@ -85,70 +81,23 @@
             this.CadastrarButton.UseVisualStyleBackColor = false;
             this.CadastrarButton.Click += new System.EventHandler(this.CadastrarButton_Click);
             // 
-            // ModesBox
-            // 
-            this.ModesBox.Controls.Add(this.RandomButton);
-            this.ModesBox.Controls.Add(this.PalaceButton);
-            this.ModesBox.Controls.Add(this.TimeButton);
-            this.ModesBox.Location = new System.Drawing.Point(25, 339);
-            this.ModesBox.Name = "ModesBox";
-            this.ModesBox.Size = new System.Drawing.Size(514, 168);
-            this.ModesBox.TabIndex = 2;
-            this.ModesBox.TabStop = false;
-            this.ModesBox.Text = "Modos";
-            // 
-            // RandomButton
-            // 
-            this.RandomButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.RandomButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RandomButton.Location = new System.Drawing.Point(354, 58);
-            this.RandomButton.Name = "RandomButton";
-            this.RandomButton.Size = new System.Drawing.Size(148, 56);
-            this.RandomButton.TabIndex = 0;
-            this.RandomButton.Text = "Pergunta Aleatoria";
-            this.RandomButton.UseVisualStyleBackColor = false;
-            // 
-            // PalaceButton
-            // 
-            this.PalaceButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.PalaceButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PalaceButton.Location = new System.Drawing.Point(181, 58);
-            this.PalaceButton.Name = "PalaceButton";
-            this.PalaceButton.Size = new System.Drawing.Size(148, 56);
-            this.PalaceButton.TabIndex = 0;
-            this.PalaceButton.Text = "Q.I Palace";
-            this.PalaceButton.UseVisualStyleBackColor = false;
-            this.PalaceButton.Click += new System.EventHandler(this.PalaceButton_Click);
-            // 
-            // TimeButton
-            // 
-            this.TimeButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.TimeButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeButton.Location = new System.Drawing.Point(12, 58);
-            this.TimeButton.Name = "TimeButton";
-            this.TimeButton.Size = new System.Drawing.Size(148, 56);
-            this.TimeButton.TabIndex = 0;
-            this.TimeButton.Text = "Time Trial";
-            this.TimeButton.UseVisualStyleBackColor = false;
-            this.TimeButton.Click += new System.EventHandler(this.TimeButton_Click);
-            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(567, 571);
-            this.Controls.Add(this.ModesBox);
-            this.Controls.Add(this.SelectionBox);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(567, 450);
+            this.Controls.Add(this.PalaceButton);
+            this.Controls.Add(this.ResponderButton);
             this.Controls.Add(this.MenuLabel);
+            this.Controls.Add(this.CadastrarButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Index";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Index";
-            this.SelectionBox.ResumeLayout(false);
-            this.ModesBox.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,12 +106,8 @@
         #endregion
 
         private System.Windows.Forms.Label MenuLabel;
-        private System.Windows.Forms.GroupBox SelectionBox;
         private System.Windows.Forms.Button ResponderButton;
         private System.Windows.Forms.Button CadastrarButton;
-        private System.Windows.Forms.GroupBox ModesBox;
-        private System.Windows.Forms.Button TimeButton;
-        private System.Windows.Forms.Button RandomButton;
         private System.Windows.Forms.Button PalaceButton;
     }
 }

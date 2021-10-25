@@ -1,0 +1,8 @@
+Em Servidores de Gerenciamento de Banco de Dados, tais como o MySQL e PostgreSQL, o comando SQL que concede privilégios a terceiro, considerando que o usuário conectado tem as prerrogativas necessárias, é o:
+REVOKE
+DELETE
+GRANT
+ASSIGN
+FLUSH PRIVILEGES
+O modelo conceitual é o de mais alto nível cuja finalidade é capturar os requisitos de informação e regras de negócio sob o ponto de vista do negócio. O modelo lógico descreve como os dados são armazenados no banco de dados e seus relacionamentos. Por fim o modelo físico demonstra como os dados são fisicamente armazendos e dependem de um SGBD como Oracle, Postgres, MySql, MariaDB, etc.
+C
