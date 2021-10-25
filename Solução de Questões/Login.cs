@@ -36,6 +36,7 @@ namespace Solução_de_Questões
         {
             if (File.ReadAllLines(GetUsersPath()).ToList().IndexOf(UsernameTextbox.Text) == File.ReadAllLines(GetPasswordsPath()).ToList().IndexOf(PasswordTextbox.Text) && File.ReadAllLines(GetUsersPath()).ToList().Contains(UsernameTextbox.Text))
             {
+                Global._GlobalRankedName = UsernameTextbox.Text;
                 MessageBox.Show("Logado :D");
                 this.Hide();
                 y.ShowDialog();

@@ -49,7 +49,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.StartButton = new System.Windows.Forms.Button();
             this.ResponderButton = new System.Windows.Forms.Button();
-            this.Porcentagem = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.AlternativaCorretaLabel = new System.Windows.Forms.Label();
             this.AlternativaBox.SuspendLayout();
@@ -79,7 +78,6 @@
             // 
             // DisciplinaSwitch
             // 
-            this.DisciplinaSwitch.FormattingEnabled = true;
             this.DisciplinaSwitch.Items.AddRange(new object[] {
             "Engenharia de Software",
             "Banco de Dados",
@@ -102,6 +100,7 @@
             // 
             // EnunciadoBox
             // 
+            this.EnunciadoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EnunciadoBox.Location = new System.Drawing.Point(20, 84);
             this.EnunciadoBox.Multiline = true;
             this.EnunciadoBox.Name = "EnunciadoBox";
@@ -244,6 +243,7 @@
             // 
             // ResolucaoBox
             // 
+            this.ResolucaoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResolucaoBox.Location = new System.Drawing.Point(21, 517);
             this.ResolucaoBox.Multiline = true;
             this.ResolucaoBox.Name = "ResolucaoBox";
@@ -282,21 +282,11 @@
             this.ResponderButton.UseVisualStyleBackColor = true;
             this.ResponderButton.Click += new System.EventHandler(this.ResponderButton_Click);
             // 
-            // Porcentagem
-            // 
-            this.Porcentagem.AutoSize = true;
-            this.Porcentagem.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Porcentagem.Location = new System.Drawing.Point(1, 690);
-            this.Porcentagem.Name = "Porcentagem";
-            this.Porcentagem.Size = new System.Drawing.Size(22, 20);
-            this.Porcentagem.TabIndex = 19;
-            this.Porcentagem.Text = "%";
-            // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(137, 690);
+            this.progressBar1.Location = new System.Drawing.Point(21, 690);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(448, 23);
+            this.progressBar1.Size = new System.Drawing.Size(564, 23);
             this.progressBar1.TabIndex = 20;
             // 
             // AlternativaCorretaLabel
@@ -305,9 +295,8 @@
             this.AlternativaCorretaLabel.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AlternativaCorretaLabel.Location = new System.Drawing.Point(132, 462);
             this.AlternativaCorretaLabel.Name = "AlternativaCorretaLabel";
-            this.AlternativaCorretaLabel.Size = new System.Drawing.Size(248, 25);
+            this.AlternativaCorretaLabel.Size = new System.Drawing.Size(0, 25);
             this.AlternativaCorretaLabel.TabIndex = 22;
-            this.AlternativaCorretaLabel.Text = "A alternativa Correta é a  ";
             // 
             // Resolucao
             // 
@@ -316,7 +305,6 @@
             this.ClientSize = new System.Drawing.Size(621, 732);
             this.Controls.Add(this.AlternativaCorretaLabel);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.Porcentagem);
             this.Controls.Add(this.ResponderButton);
             this.Controls.Add(this.StartButton);
             this.Controls.Add(this.ResolucaoBox);
@@ -360,7 +348,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button StartButton;
         private System.Windows.Forms.Button ResponderButton;
-        private System.Windows.Forms.Label Porcentagem;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label AlternativaCorretaLabel;
     }

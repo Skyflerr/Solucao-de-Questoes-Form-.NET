@@ -55,6 +55,8 @@ namespace Solução_de_Questões
 
         private void StartButton_Click(object sender, EventArgs e)
         {
+            ResolucaoBox.Text = "";
+            AlternativaCorretaLabel.Text = "";
             switch (DificuldadeSwitch.Text)
             {
                 case "Facil":
@@ -127,38 +129,54 @@ namespace Solução_de_Questões
 
         private void ResponderButton_Click(object sender, EventArgs e)
         {
-            int Acertos = 0;
             string AlternativaMarcada = "";
 
-            if (A.Checked == true)
+            if (A.Checked == true) {
                 AlternativaMarcada = A.Name;
+                A.Checked = false;
+            }
+                
 
-            if (B.Checked == true)
+            if (B.Checked == true) { 
                 AlternativaMarcada = B.Name;
+                B.Checked = false;
+            }
 
-            if (C.Checked == true)
+            if (C.Checked == true) {
                 AlternativaMarcada = C.Name;
+                C.Checked = false;
+            }
 
-            if (D.Checked == true)
+            if (D.Checked == true) { 
                 AlternativaMarcada = D.Name;
+                D.Checked = false;
+            }
 
-            if (E.Checked == true)
+            if (E.Checked == true) {
                 AlternativaMarcada = E.Name;
+                E.Checked = false;
+            }
 
             AlternativaCorretaLabel.Text = "A alternativa Correta é a " + Global._GlobalAltCorreta;
+            ResolucaoBox.Text = Global._GlobalResolucao;
 
             if (AlternativaMarcada == Global._GlobalAltCorreta)
             {
                 MessageBox.Show("Alternativa Correta");
-                Acertos++;
                 progressBar1.Value += 10;
-                if (Acertos != 0)
-                    Porcentagem.Text = "Total de " + Acertos.ToString(); 
             }
 
             else
             {
                 MessageBox.Show("Alternativa Errada");
+            }
+
+            if (progressBar1.Value == 100)
+            {
+                MessageBox.Show("Completaste todas as perguntas possivel, és um genio");
+                EnunciadoBox.Text = A.Text = B.Text = C.Text = D.Text = E.Text = ResolucaoBox.Text = "";
+                Index x = new Index();
+                x.ShowDialog();
             }
         }
 
