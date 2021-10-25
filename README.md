@@ -12,7 +12,7 @@ Sistema de Cadastro e resolução de Questões feito em form .NET ,com login e c
 ### Tabela de funcionalidades extras
 |Funções|Progresso|
 |-------|---------|
-|Dark Mode|Não iniciado|
+|Design|Em Andamento|
 |Q.I Palace|Completo|
 |Niveis de Dificuldade|Completo|
 |Time Trial|Cancelado|
